@@ -18,7 +18,7 @@ public class SimpleJDBCExample {
 
         // Create a simple query
         String query = "select * from EMPLOYEE";
-
+        //Esto es un cambuio que si voy a aceptar
         // A try-with-resources example
         // Connection and Statement implement java.lan.AutoCloseable
         try (Connection con = DriverManager.getConnection(url, username, password)) {
