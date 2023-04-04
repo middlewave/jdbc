@@ -9,7 +9,7 @@ import java.util.Date;
 
 public class SimpleJDBCExample {
 
-    public static void main(String[] args) {
+    public static void m ain(String[] args) {
         // Create the "url"
         // assume database server is running on the localhost
         String url = "jdbc:derby://localhost:1527/EmployeeDB";
