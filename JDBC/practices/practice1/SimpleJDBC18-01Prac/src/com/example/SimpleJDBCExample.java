@@ -9,13 +9,13 @@ import java.util.Date;
 
 public class SimpleJDBCExample {
 
-    public static void m ain(String[] args) {
+    public static void m a in(String[] args) {
         // Create the "url"
         // assume database server is running on the localhost
         String url = "jdbc:derby://localhost:1527/EmployeeDB";
         String username = "tiger";
         String password = "scott";
-
+sfdgsdfgsdfgsdfgsdfgdsf dsdfgsfgsdfg
         // Create a simple query
         String query = "select * from EMPLOYEE";
         //Esto es un cambuio que si voy a aceptar
