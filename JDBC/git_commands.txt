@@ -1,0 +1,56 @@
+# Obtener la versión de GIT
+git --version
+
+#Realizar la configuración global y no por proyecto
+
+git config --global user.name "Orlando Luna"
+git config --global user.email orlando.luna@gmail.com
+
+#Realizar la configuración global del edidotr por defecto
+
+git config --global core.editor "code --wait"
+
+#Configuración de core.autocrlf
+
+git config --global core.autocrlf true
+
+#Ayuda de configuración de git
+
+git config -h
+
+#Para verificar el status de los archivos del repo
+
+git status
+
+#Realizar commitcon mensaje
+
+git commit -m "Mensaje aqui"
+
+#Realizar un commit staging directo a un archivo borrado
+
+git rm <nombre_archivo>
+
+#Quitar del staging un cambio 
+
+git restore --staged <nombre_cambio>
+
+#Para el caso de recuperar los cambios (inclusive si el archivo fué borrado)
+
+git restore <nombre_cambio>
+
+#Crear configuración para .gitignore
+
+Crear .gitignore
+
+#Visualiar el historialde cambios
+
+git log --oneline
+
+#Revisar en que rama estamos trabajando
+
+git branch
+
+#Crear una nueva rama
+
+git checkout -b <nombre_rama>
+git config --list
